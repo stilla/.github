@@ -1,0 +1,48 @@
+{
+  "messages": [
+    {
+      "text": "Welcome to Cursor for Slack! Here's how to use it:",
+      "blocks": [
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*Welcome to Cursor for Slack!* :cursor:\n\nHere's how to get started:"
+          }
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "• Type `@Cursor help` for assistance\n• Use `@Cursor code` to get coding help\n• Try `@Cursor review` for code reviews\n• Say `@Cursor explain` to understand code\n• Ask `@Cursor debug` to troubleshoot issues"
+          }
+        },
+        {
+          "type": "section",
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*Quick Commands:*\n`@Cursor help`\n`@Cursor code`\n`@Cursor review`"
+            },
+            {
+              "type": "mrkdwn",
+              "text": "*Advanced Features:*\n`@Cursor explain`\n`@Cursor debug`\n`@Cursor optimize`"
+            }
+          ]
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "_Last updated: 2025-09-29 10:00:00 | Agent Status: Active_"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
